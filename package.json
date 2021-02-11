@@ -1,0 +1,15 @@
+{
+  "name": "app_supermercado",
+  "version": "1.0.0",
+  "description": "app de supermercado proposto no curso de javascript da danki code, onde o proposito não é a estilização, mas sim treinar lógica e javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "node src/index.js"
+  },
+  "author": "Gabriel Glatz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

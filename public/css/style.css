@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+body {
+    background-color: rgba(60, 179, 113, 0.4);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../image/legumes-e-verduras-1555620381375_v2_1254x836.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 0.2rem solid mediumseagreen;
+    box-shadow: 0rem 0.5rem 1.5rem rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+header > h1 {
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    background-image: url('../image/3160621.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header > .form {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form > input, button {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0.2rem solid rgba(204, 204, 204, 0.6);
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: 'Carter One', cursive;
+    font-size: 2rem;
+    color: mediumseagreen;
+}
+
+::-webkit-input-placeholder {
+    color: mediumseagreen;
+}
+
+:-moz-placeholder {
+    color: mediumseagreen;
+}
+
+::-moz-placeholder {
+    color: mediumseagreen;
+}
+
+:-ms-input-placeholder {
+    color: mediumseagreen;
+}
+
+.form > input[type = 'text'] {
+    width: 50%;
+}
+
+.form > button, input[type = 'number'] {
+    width: 20%;
+}
+
+.form > button {
+    cursor: pointer;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    top: 22rem;
+    left: 0;
+    padding: 4rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.6rem;
+    background-color: rgba(60, 179, 113, 0.2);
+    border-radius: 1rem;
+    box-shadow: inset 0 0 1.5rem rgba(0, 0, 0, 0.7);
+}
+
+.container__product {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    size: 0.1rem;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.container__totalPrice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    font-family: 'Carter One', cursive;
+    font-size: 1.4rem;
+    color: mediumseagreen;
+}
+
+.container__totalPrice > button {
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.container__item {
+    width: 100%;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Carter One', cursive;
+    font-size: 1.6rem;
+    color: mediumseagreen;
+}
+
+.item__button {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0.2rem solid rgba(204, 204, 204, 0.6);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.item__button > i {
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    color: mediumseagreen;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Supermercado</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Compras</h1>
+        <div id="form" class="form" action="" href="">
+            <input type="text" placeholder="Produto" name="produto" id="produto">
+            <input type="number" name="valor" id="valor" step="0.01" placeholder="Valor">
+            <button type="submit" id="registrar">Registrar</button>
+        </div>    
+    </header>
+    <section>
+        <div class="container">
+            <div class="container__product"></div>
+            <div class="container__totalPrice" id="totalPrice">
+                <h1>Total: R$ 0,00</h1>
+                <button id="clear" onclick="clearList()">Limpar Lista</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
